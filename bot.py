@@ -91,7 +91,7 @@ async def indicators_handler(message: types.Message):
         if len(parts) != 2:
             raise ValueError("Invalid input. Use: COIN TIMEFRAME (e.g., BTC/USDT 1h)")
 
-        symbol = parts[0].upper()
+        symbol = parts[0].upper() + '/USDT'
         timeframe = parts[1]
 
         # Fetch data
