@@ -1,3 +1,4 @@
+numpy==1.26.4
 aiogram==3.13.1
 ccxt==4.3.92
 pandas==2.2.3
