@@ -1,0 +1,4 @@
+aiogram==3.13.1  # Latest stable as of now; check for updates
+ccxt==4.5.15      # For exchange data
+pandas==2.2.2    # Data handling
+TA-Lib==0.4.32   # Technical indicators (wheel for Python 3.12)
