@@ -7,7 +7,7 @@ import talib
 import os
 
 # Replace with your Telegram Bot Token
-# BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')  # Or hardcode it: 'YOUR_BOT_TOKEN_HERE'
+BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')  # Or hardcode it: 'YOUR_BOT_TOKEN_HERE'
 
 # Initialize CCXT exchange (Binance as example)
 exchange = ccxt.binance({
